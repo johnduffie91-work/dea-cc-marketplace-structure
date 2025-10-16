@@ -1,1 +1,1 @@
-@skills/refactoring/SKILL.md
+@../skills/SKILL.md

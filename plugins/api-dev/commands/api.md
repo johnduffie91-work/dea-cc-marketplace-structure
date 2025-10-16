@@ -1,1 +1,1 @@
-@skills/api-dev/SKILL.md
+@../skills/SKILL.md

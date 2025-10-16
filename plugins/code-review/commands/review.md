@@ -1,1 +1,1 @@
-@skills/code-review/SKILL.md
+@../skills/SKILL.md
