@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Reference implementation for Claude Code marketplace",
   "author": "Your Team",
-  "repository": "https://github.com/yourorg/demo-marketplace",
+  "repository": "https://github.com/johnduffie91-work/dea-cc-marketplace-structure.git",
   "plugins": [
     {
       "id": "code-review",
