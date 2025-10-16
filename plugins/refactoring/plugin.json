@@ -1,0 +1,17 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "description": "Safe refactoring workflow",
+  "author": "Your Team",
+  "commands": ["refactor"],
+  "skills": ["refactoring"],
+  "autoEnable": false,
+  "resources": {
+    "commands": {
+      "refactor": "commands/refactor.md"
+    },
+    "skills": {
+      "refactoring": "skills/SKILL.md"
+    }
+  }
+}
