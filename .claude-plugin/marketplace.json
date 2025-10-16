@@ -1,28 +1,36 @@
 {
   "name": "demo-marketplace",
-  "version": "1.0.0",
-  "description": "Reference implementation for Claude Code marketplace",
-  "author": "Your Team",
-  "owner": "johnduffie91-work",
-  "repository": "https://github.com/johnduffie91-work/dea-cc-marketplace-structure.git",
+  "owner": {
+    "name": "johnduffie91-work",
+    "email": "johnduffie91@example.com"
+  },
   "plugins": [
     {
       "name": "code-review",
+      "source": "./plugins/code-review",
       "description": "Automated code review checklist",
       "version": "1.0.0",
-      "source": "plugins/code-review"
+      "author": {
+        "name": "Your Team"
+      }
     },
     {
       "name": "api-dev",
+      "source": "./plugins/api-dev",
       "description": "REST API scaffolding guide",
       "version": "1.0.0",
-      "source": "plugins/api-dev"
+      "author": {
+        "name": "Your Team"
+      }
     },
     {
       "name": "refactoring",
+      "source": "./plugins/refactoring",
       "description": "Safe refactoring workflow",
       "version": "1.0.0",
-      "source": "plugins/refactoring"
+      "author": {
+        "name": "Your Team"
+      }
     }
   ]
 }
