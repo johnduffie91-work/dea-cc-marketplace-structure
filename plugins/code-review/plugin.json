@@ -1,0 +1,17 @@
+{
+  "name": "code-review",
+  "version": "1.0.0",
+  "description": "Automated code review checklist",
+  "author": "Your Team",
+  "commands": ["review"],
+  "skills": ["code-review"],
+  "autoEnable": false,
+  "resources": {
+    "commands": {
+      "review": "commands/review.md"
+    },
+    "skills": {
+      "code-review": "skills/SKILL.md"
+    }
+  }
+}
