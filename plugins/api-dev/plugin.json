@@ -1,0 +1,17 @@
+{
+  "name": "api-dev",
+  "version": "1.0.0",
+  "description": "REST API scaffolding guide",
+  "author": "Your Team",
+  "commands": ["api"],
+  "skills": ["api-dev"],
+  "autoEnable": false,
+  "resources": {
+    "commands": {
+      "api": "commands/api.md"
+    },
+    "skills": {
+      "api-dev": "skills/SKILL.md"
+    }
+  }
+}
