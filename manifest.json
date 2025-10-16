@@ -1,0 +1,30 @@
+{
+  "name": "demo-marketplace",
+  "version": "1.0.0",
+  "description": "Reference implementation for Claude Code marketplace",
+  "author": "Your Team",
+  "repository": "https://github.com/yourorg/demo-marketplace",
+  "plugins": [
+    {
+      "id": "code-review",
+      "name": "Code Review",
+      "description": "Automated code review checklist",
+      "version": "1.0.0",
+      "path": "plugins/code-review"
+    },
+    {
+      "id": "api-dev",
+      "name": "API Development",
+      "description": "REST API scaffolding guide",
+      "version": "1.0.0",
+      "path": "plugins/api-dev"
+    },
+    {
+      "id": "refactoring",
+      "name": "Refactoring Assistant",
+      "description": "Safe refactoring workflow",
+      "version": "1.0.0",
+      "path": "plugins/refactoring"
+    }
+  ]
+}
